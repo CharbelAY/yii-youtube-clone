@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48b8dd9-0340-438c-a859-d6c6d3e744ce" name="Default Changelist" comment="" />
+    <list default="true" id="b48b8dd9-0340-438c-a859-d6c6d3e744ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/controllers/HelloController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache2-conf/sites-available/freecodetube.testingapp.conf" beforeDir="false" afterPath="$PROJECT_DIR$/apache2-conf/sites-available/freecodetube.testingapp.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +33,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rrSac5Be4giZKEGzsG0s89g5D9" />
   <component name="ProjectViewState">
@@ -42,21 +69,38 @@
       <workItem from="1619791621610" duration="2213000" />
       <workItem from="1619800655541" duration="10042000" />
       <workItem from="1619820453136" duration="168000" />
-      <workItem from="1619854100175" duration="13905000" />
+      <workItem from="1619854100175" duration="14466000" />
+      <workItem from="1619974924830" duration="600000" />
+      <workItem from="1620022166676" duration="2742000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="423" y="381" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619870717993">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="423" y="381" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1619870717993" />
-    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1619869577814">
+    <state x="482" y="258" key="NewPhpClassDialog" timestamp="1620022981534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1619869577814" />
+    <state x="482" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1620022981534" />
+    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1620022905968">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1620022905968" />
   </component>
 </project>
