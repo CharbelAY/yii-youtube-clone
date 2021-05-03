@@ -8,8 +8,10 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'name'=>'Studio Free Code Tube',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
+    'language'=>'en-US',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [

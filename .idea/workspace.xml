@@ -20,11 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48b8dd9-0340-438c-a859-d6c6d3e744ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/controllers/HelloController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/hello/index-view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache2-conf/sites-available/freecodetube.testingapp.conf" beforeDir="false" afterPath="$PROJECT_DIR$/apache2-conf/sites-available/freecodetube.testingapp.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/assets/AppAsset.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/controllers/HelloController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/controllers/HelloController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/site/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/common/widgets/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/common/widgets/Alert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +78,7 @@
       <workItem from="1619820453136" duration="168000" />
       <workItem from="1619854100175" duration="14466000" />
       <workItem from="1619974924830" duration="600000" />
-      <workItem from="1620022166676" duration="2742000" />
+      <workItem from="1620022166676" duration="11700000" />
     </task>
     <servers />
   </component>
@@ -98,9 +105,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="482" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1620022981534" />
-    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1620022905968">
+    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1620041005621">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1620022905968" />
+    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1620041005621" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1620062643980">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1620062643980" />
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup" timestamp="1620070144348">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1620070144348" />
   </component>
 </project>

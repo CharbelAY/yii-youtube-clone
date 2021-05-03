@@ -20,3 +20,30 @@ composer create-project --prefer-dist yiisoft/yii2-app-advanced projectFolderNam
 ### Comments
 
 1. When a controller is created the path in the url is the following nameofwebsite/controllername/action. So HelloWorldController will be hello-world and the action for example actionIndex will become index so nameofwebsite/hello-world/index
+
+
+### Convention
+
+1. HelloController class is for hello in url 
+2. actionSamir inside HelloController is samir in url
+3. in views folder hello folder is for HelloController site folder is for SiteController
+
+
+### install Bootstrap4
+by default we get bootstrap3 but if we want bootstrap 4 we can do the following in the project folder:
+1. composer remove yiisoft/yii2-bootstrap3
+2. composer require yiisoft/yii2-bootstrap4
+
+3. assets folder of each project can contain the sources like bootstrap for general settings of the app the dependencies are as follows each asset will show what dependencies it has on other assets YiiAsset depends on jqueryasset so on in the depends array
+4. layouts: in layouts and other pages we can add events for yii framework to listen to like the following:
+beginPage \
+endPage \
+beginBody \
+endBody \
+beginForm \
+endForm \
+registerCsrfMetaTags is for cross site request forgery \
+AppAsset::register($this); $this is an instance of the view class /* @var $this \yii\web\View will register the app assets AppAsset.php configuration in the layout N.B: site.css should be the last thing included in AppAsset \
+lang="<?= Yii::$app->language ?>"> in this the $app refers to our app that was created in the index.php file on the web folder of the backend or frontend project and it has some parameters like languages we access it using Yii class  'language'=>'en-US', in config/main.php \
+5. wrapper for components widgets (Yii::$app->user->isGuest) user is a component defined in the config file config/main.php (singleton)*  components can be user request session log some components are project specific and others are global in common/config/main like cache
+in the general components we specify the class of the singleton but in the project specific we do not because they are specified in the Application class in yiisoft/yii2/web/Application at the end of the class these are web components but we are extending another class that provide console components like log called CoreComponent
