@@ -47,3 +47,18 @@ AppAsset::register($this); $this is an instance of the view class /* @var $this 
 lang="<?= Yii::$app->language ?>"> in this the $app refers to our app that was created in the index.php file on the web folder of the backend or frontend project and it has some parameters like languages we access it using Yii class  'language'=>'en-US', in config/main.php \
 5. wrapper for components widgets (Yii::$app->user->isGuest) user is a component defined in the config file config/main.php (singleton)*  components can be user request session log some components are project specific and others are global in common/config/main like cache
 in the general components we specify the class of the singleton but in the project specific we do not because they are specified in the Application class in yiisoft/yii2/web/Application at the end of the class these are web components but we are extending another class that provide console components like log called CoreComponent
+
+
+### Creating  tables and migration
+create migration: \
+php yii migrate/create create_videos_table --fields="video_id:string(16):notNull,title:string(512):notNull,description:text(),created_by:integer(11):foreignKey(user)" \
+apply migration: \
+php yii migrate \
+undo migration: \
+php yii migrate/down \
+
+### Creating controllers and models
+using http://studio.freecodetube.testingapp:8080/gii/ the gii tool 
+
+
+

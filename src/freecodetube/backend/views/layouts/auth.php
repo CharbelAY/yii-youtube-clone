@@ -11,14 +11,13 @@ use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
 AppAsset::register($this);
-
 $this->beginContent('@backend/views/layouts/base.php')
+
 ?>
 <div class="wrap h-100 d-flex flex-column">
     <?php echo $this->render('_header') ?>
 
     <main class="d-flex">
-        <?php echo $this->render('_sidebar') ?>
         <div class="content-wrapper p-3">
             <?= Breadcrumbs::widget([
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -29,5 +28,4 @@ $this->beginContent('@backend/views/layouts/base.php')
 
     </main>
 </div>
-
 <?php $this->endContent() ?>
