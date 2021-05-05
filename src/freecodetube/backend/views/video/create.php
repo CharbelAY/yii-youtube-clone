@@ -9,13 +9,10 @@ $this->title = 'Create Video';
 $this->params['breadcrumbs'][] = ['label' => 'Videos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
 <div class="video-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
-<!--    --><?//= $this->render('_form', [
-//        'model' => $model,
-//    ]) ?>
 
     <div class="d-flex flex-column justify-content-center align-items-center">
 
@@ -32,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
         ) ?>
         <button class="btn btn-primary btn-file">
             Select file
-            <input type="file" id="videoFile" name="video">
+            <input type="file" id="videoFile" name="video" >
         </button>
         <?php \yii\bootstrap4\ActiveForm::end() ?>
     </div>

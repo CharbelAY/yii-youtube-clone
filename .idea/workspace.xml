@@ -20,19 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48b8dd9-0340-438c-a859-d6c6d3e744ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/_footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/_header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/_sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/freecodetube/backend/web/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/assets/AppAsset.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/controllers/VideoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/video/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/video/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/views/video/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/views/video/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/backend/web/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/backend/web/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/common/models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/common/models/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freecodetube/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/freecodetube/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,8 @@
       <workItem from="1620022166676" duration="11914000" />
       <workItem from="1620111398278" duration="10877000" />
       <workItem from="1620142348538" duration="80000" />
+      <workItem from="1620146676667" duration="2858000" />
+      <workItem from="1620191500540" duration="9433000" />
     </task>
     <servers />
   </component>
@@ -113,6 +114,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="423" y="381" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1619870717993" />
+    <state x="392" y="300" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620193511743">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="392" y="300" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1620193511743" />
     <state x="482" y="258" key="NewPhpClassDialog" timestamp="1620022981534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -125,9 +130,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1620062643980" />
-    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup" timestamp="1620070144348">
+    <state x="337" y="240" key="run.anything.popup" timestamp="1620198111688">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1620070144348" />
+    <state x="337" y="240" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1620198111688" />
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup" timestamp="1620223536662">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1620223536662" />
   </component>
 </project>
